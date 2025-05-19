@@ -5,6 +5,7 @@ This is done by the xlink firmware that acts as coin and bill terminal for end u
 ## Requirements
 - tplink eap 110 or 225
 - esp32 devkit
+- installed serial drivers
 
 ## Installation
 download xlink firmware from release or use this link [installer](https://xlnk.xmachinesystems.com/)
