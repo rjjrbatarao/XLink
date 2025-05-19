@@ -13,6 +13,9 @@ This is done by the XLink firmware that acts as coin and bill terminal for custo
 - esp32 devkit
 - installed serial drivers
 
+## Pinout Wireless
+![image](https://github.com/user-attachments/assets/9cc2a499-ce36-4a10-93ce-48d9b1ec1c7c)
+
 ## Installation
 download xlink firmware from [release](https://github.com/rjjrbatarao/XLink/releases) or use this link [installer](https://xlnk.xmachinesystems.com/)
 Power up your Tplink ap and connect to internet and dhcp source You must set the SSID
