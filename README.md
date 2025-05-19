@@ -27,6 +27,9 @@ Click install and wait to finish in 3 to 4 minutes
 
 ## Step 3
 Scan network and put your TPlink ap ssid and password if required
+Note if failed just refresh and follow 1 but in step 2 choos Connect to Wi-Fi
+
+
 
 
 ## Step 4
@@ -36,8 +39,12 @@ Click Next and Visit the link, details on this will be used later
 ## Step 5
 ![image](https://github.com/user-attachments/assets/c8493ce3-6a01-4e70-adf3-424926cb38de)
 
+## Step 6
+![image](https://github.com/user-attachments/assets/14814f20-5cfc-402f-95f9-5dcafbaba664)
 
 ## Pin remapping
+POST: /settings
+PAYLOAD:
 ```json
 {
 
@@ -46,10 +53,23 @@ Click Next and Visit the link, details on this will be used later
 }
 ```
 ## Other settings
+POST: /settings
+PAYLOAD:
 ```json
 {
 "admin_username":"admin",
 "admin_password":"admin"
 "pin_coin_level":"1"
 }
+```
+POST: /rates
+PAYLOAD:
+```json
+[{
+"p":1,
+"c":5
+}
+"p":5,
+"c":30
+}]
 ```
