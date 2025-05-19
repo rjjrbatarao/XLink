@@ -28,13 +28,11 @@ Click install and wait to finish in 3 to 4 minutes
 ## Step 3
 Scan network and put your TPlink ap ssid and password if required
 Note if failed just refresh and follow 1 but in step 2 choos Connect to Wi-Fi
-
-
-
+![image](https://github.com/user-attachments/assets/bfdfe651-3502-4c68-ae31-b08eaca8646d)
 
 ## Step 4
-Click Next and Visit the link, details on this will be used later
-
+Click Connect and Visit Device, details on this will be used later, popup will show
+![image](https://github.com/user-attachments/assets/b473a422-580b-44b4-93e3-03ba5f086a4d)
 
 ## Step 5
 ![image](https://github.com/user-attachments/assets/c8493ce3-6a01-4e70-adf3-424926cb38de)
