@@ -45,7 +45,6 @@ Click Connect and Visit Device, details on this will be used later, popup will s
 
 ## Pin remapping
 
-## Setup api dog
 
 POST: /settings
 PAYLOAD:
