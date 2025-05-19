@@ -18,7 +18,7 @@ This is done by the XLink firmware that acts as coin and bill terminal for custo
 
 ## Installation
 download xlink firmware from [release](https://github.com/rjjrbatarao/XLink/releases) or use this link [installer](https://xlnk.xmachinesystems.com/)
-Power up your Tplink ap and connect to internet and dhcp source You must set the SSID
+NOTE: Power up your Tplink ap and connect to internet and dhcp source You must set the SSID
 
 ## Step 1
 You must have installed the drivers if com not detected, cp2xxx or chxxx is the keyword
@@ -66,5 +66,6 @@ PAYLOAD:
 POST: /rates
 PAYLOAD:
 ```json
-[{"p":1,"c":5},{"p":5,"c":30}]
+[{"p":1,"t":5},{"p":5,"t":30},{"p":10,"t":60},{"p":20,"t":120},{"p":50,"t":300}]
 ```
+NOTE: p is price and t is time in minutes
