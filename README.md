@@ -12,3 +12,20 @@ This is done by the XLink firmware that acts as coin and bill terminal for end u
 
 ## Installation
 download xlink firmware from release or use this link [installer](https://xlnk.xmachinesystems.com/)
+
+## Pinremapping
+```json
+{
+
+"pin_coin":"15",
+"pin_coin_cut":"13"
+}
+```
+## Other settings
+```json
+{
+"admin_username":"admin",
+"admin_password":"admin"
+"pin_coin_level":"1"
+}
+```
