@@ -1,6 +1,9 @@
+[![Production](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors) [![Alpha](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+
 # XLink
-Xlink firmware is a voucher and coinslot vendo terminal unit for TPLink EAP 110/225.
-This is done by the xlink firmware that acts as coin and bill terminal for end users access generation.
+Xlink firmware is a voucher and credit terminal for TPLink EAP 1xx/2xx, Mikrotik or OpenWRT access points.
+This is done by the XLink firmware that acts as coin and bill terminal for end users access generation.
+
 
 ## Requirements
 - tplink eap 110 or 225
