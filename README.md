@@ -14,7 +14,7 @@ This is done by the XLink firmware that acts as coin and bill terminal for custo
 - installed serial drivers
 
 ## Installation
-download xlink firmware from release or use this link [installer](https://xlnk.xmachinesystems.com/)
+download xlink firmware from [release](https://github.com/rjjrbatarao/XLink/releases) or use this link [installer](https://xlnk.xmachinesystems.com/)
 
 ## Pin remapping
 ```json
