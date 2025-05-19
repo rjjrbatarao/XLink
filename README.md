@@ -15,9 +15,10 @@ This is done by the XLink firmware that acts as coin and bill terminal for custo
 
 ## Installation
 download xlink firmware from [release](https://github.com/rjjrbatarao/XLink/releases) or use this link [installer](https://xlnk.xmachinesystems.com/)
+Power up your Tplink ap and connect to internet and dhcp source You must set the SSID
 
 ## Step 1
-Power up your Tplink ap and connect to internet and dhcp source You must set the SSID
+You must have installed the drivers if com not detected, cp2xxx or chxxx is the keyword
 ![image](https://github.com/user-attachments/assets/3b80596e-02b3-4977-afda-3c003596b376)
 
 ## Step 2
