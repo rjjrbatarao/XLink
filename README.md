@@ -44,6 +44,9 @@ Click Connect and Visit Device, details on this will be used later, popup will s
 ![image](https://github.com/user-attachments/assets/14814f20-5cfc-402f-95f9-5dcafbaba664)
 
 ## Pin remapping
+
+## Setup api dog
+
 POST: /settings
 PAYLOAD:
 ```json
