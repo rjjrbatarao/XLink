@@ -9,14 +9,31 @@ This is done by the XLink firmware that acts as coin and bill terminal for custo
 
 
 ## Requirements
-- tplink eap 110 or 225
+- tplink eap 110 or 225 with configured ssid
 - esp32 devkit
 - installed serial drivers
 
 ## Installation
 download xlink firmware from [release](https://github.com/rjjrbatarao/XLink/releases) or use this link [installer](https://xlnk.xmachinesystems.com/)
 
-## Step1
+## Step 1
+Power up your Tplink ap and connect to internet and dhcp source You must set the SSID
+![image](https://github.com/user-attachments/assets/3b80596e-02b3-4977-afda-3c003596b376)
+
+## Step 2
+Click install and wait to finish in 3 to 4 minutes
+![image](https://github.com/user-attachments/assets/cb70b19c-50ea-407f-8871-17027ef9da0f)
+
+## Step 3
+Scan network and put your TPlink ap ssid and password if required
+
+
+## Step 4
+Click Next and Visit the link, details on this will be used later
+
+
+## Step 5
+![image](https://github.com/user-attachments/assets/c8493ce3-6a01-4e70-adf3-424926cb38de)
 
 
 ## Pin remapping
