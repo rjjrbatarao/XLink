@@ -1,4 +1,4 @@
-[![Production](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors) [![Alpha](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Production](https://img.shields.io/badge/Production%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors) [![Alpha](https://img.shields.io/badge/Alpha%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 # XLink
 Xlink firmware is a voucher and credit terminal for TPLink EAP 1xx/2xx, Mikrotik or OpenWRT access points.
