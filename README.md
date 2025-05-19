@@ -13,7 +13,7 @@ This is done by the XLink firmware that acts as coin and bill terminal for end u
 ## Installation
 download xlink firmware from release or use this link [installer](https://xlnk.xmachinesystems.com/)
 
-## Pinremapping
+## Pin remapping
 ```json
 {
 
