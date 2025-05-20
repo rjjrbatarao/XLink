@@ -43,14 +43,14 @@ Click `Connect` and afterwards `Visit Device`, details on this will be used late
 ![image](https://github.com/user-attachments/assets/b473a422-580b-44b4-93e3-03ba5f086a4d)
 
 ## Step 5
-10.5.50.220 is the ip given by router to ESP32. If you click the Visit Device you will get the IP
+10.5.50.220 is just example ip given by router to ESP32. If you click the `Visit Device` you will get the IP
 ![image](https://github.com/user-attachments/assets/e533cde0-7f53-4ace-a75e-84bc20582bc6)
 | Name  |  Description |
 | - | - |
-| RADIUS Server IP:  | ip of the esp32 can be aquired through the Visit Device or checking the tplink admin page  |
-| RADIUS Password: | default is secret123 change this later  |
-| NAS ID: | any naming eap110 is just example  |
-| External Web Portal URL: | clicking the Visit device will reveal this link  |
+| RADIUS Server IP:  | ip of the esp32 can be aquired through the `Visit Device` or checking the tplink admin page  |
+| RADIUS Password: | default is `secret123` change this later  |
+| NAS ID: | any naming `eap110` is just example  |
+| External Web Portal URL: | clicking the `Visit Device` will reveal this link  |
 
 
 ## Step 6
