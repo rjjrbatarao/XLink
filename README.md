@@ -9,7 +9,7 @@ This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` 
 - tplink eap 110 or 225 with configured ssid or mikrotik and soon openwrt
 - esp32 devkit for now, soon esp32s3 n16r8 will be recommended!!
 - installed serial drivers `CP2xx or CH3xx` provided above drivers folder
-Note: this is 1:1 meaning 1 esp per AP so if mikrotik used you cannot add more esp32!!
+Note: this is 1:1 meaning 1 esp per AP so you cannot add more esp32 without AP to pair!!
 
 ## Pinout Wireless
 ![image](https://github.com/user-attachments/assets/9cc2a499-ce36-4a10-93ce-48d9b1ec1c7c)
