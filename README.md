@@ -23,7 +23,7 @@ This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` 
 
 ## Installation
 Download XLink firmware from [RELEASE](https://github.com/rjjrbatarao/XLink/releases) or use this link [WEB INSTALLER](https://xlnk.xmachinesystems.com/)\
-NOTE: Power up your Tplink ap and connect to internet and dhcp source You must set the SSID follow this guide [GUIDE](https://www.tp-link.com/us/configuration-guides/quick_setup_guide_for_standalone_omada_eaps/?configurationId=18595#_idTextAnchor007)
+NOTE: Before diving into below Steps please Power up your Tplink ap and connect to dhcp source or fiber modem!! You must set the SSID!! follow this guide [GUIDE](https://www.tp-link.com/us/configuration-guides/quick_setup_guide_for_standalone_omada_eaps/?configurationId=18595#_idTextAnchor007)
 
 ## Step 1
 You must have installed the drivers if com not detected, `CP2xx or CH3xx` is the keyword!!\
