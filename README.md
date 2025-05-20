@@ -3,10 +3,7 @@
 # XLink
 Xlink firmware is FREE Proof Of Concept voucher and cash terminal for `TPLink EAP 1xx/2xx`, `Mikrotik` and soon any `OpenWRT` access points.
 This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` for customer wifi session generation.
-
-![image](https://github.com/user-attachments/assets/b11121dd-5844-4771-a13a-6766e4714b3a)
-
-
+![portal](https://github.com/user-attachments/assets/cee5afbb-48fc-43e9-b235-11ee1a98e9b3)
 
 ## Important! Requirements
 - tplink eap 110 or 225 with configured ssid or mikrotik and soon openwrt
