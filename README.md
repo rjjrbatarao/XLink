@@ -22,7 +22,7 @@ Note: this is 1:1 meaning 1 esp per AP so if mikrotik used you cannot add more e
 | 15  | 15  | COIN PIN  |
 | 13  | 13  | COIN POWER CUT  |
 
-## Connection Setup Per AP
+## Components Setup Per AP
 | Name  | ESP32 | EXTERNAL AP | EXTERNAL ROUTER | CLIENTS | FREQUENCY | PRICE | ANTITETHER |description |
 | - | - | - | - | - | - | - | - | - |
 | TPLink EAP110  | ✅  | ❌  | optional | 10 - 15 | 2.4G | LOW | NO? |router is required if you need ttl 1 or (antitether) for budget starter vendo| 
