@@ -28,7 +28,7 @@ Note: this is 1:1 meaning 1 esp per AP so if mikrotik used you cannot add more e
 | TPLink EAP110  | ✅  | ❌  | optional | router is required if you need ttl 1 or (antitether)| 
 | TPLink EAP225   | ✅  | ❌  | optional | router is required if you need ttl 1 or (antitether)| 
 | Mikrotik Haplite  | ✅  | optional  | ❌ | good with antitheter but need external AP for extending wifi range | 
-| Mikrotik Metal  | ✅  | ❌  | ❌ | supports antitether | 
+| Mikrotik RBMetal  | ✅  | ❌  | ❌ | supports antitether only 2.4ghz AP | 
 | Mikrotik wAP  | ✅  | ❌  | ❌ | this might be the best setup to avoid antitether with 2/5ghz | 
 | Comfast E314n V2 Openwrt  | ✅  | ❌  | ❌ | in openwrt setting ttl is possible so no need external router |
 | Comfast CF-E73 V2 Openwrt  | ✅  | ❌  | ❌ | in openwrt setting ttl is possible so no need external router |
