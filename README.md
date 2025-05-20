@@ -69,7 +69,7 @@ Popup is the External web portal and IP of esp32 save this for later use in step
 
 
 ## Step 6
-Follow this image replace the ip with what you aquired in step 5 and click save.\
+Follow this image replace the ip with what you obtained in step 5 and click save.\
 Notice the \32 this is the netmask to ensure only 1 device is in walled garden\
 ![image](https://github.com/user-attachments/assets/14814f20-5cfc-402f-95f9-5dcafbaba664)
 
