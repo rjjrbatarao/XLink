@@ -34,6 +34,10 @@ Note: this is 1:1 meaning 1 esp per AP so if mikrotik used you cannot add more e
 | Comfast CF-E73 V2 Openwrt  | ✅  | ❌  | ❌ | 10 - 15 | 2.4G | YES | YES |in openwrt setting ttl is possible so no need external router |
 | Other Openwrt  | ✅  | ❌  | ❌ | 10 - 100 | 2.4G or 5G | LOW-HIGH | YES |in openwrt setting ttl is possible so no need external router |
 
+## Modes
+Voucher generator manual: TODO
+Piso wifi vendo autologin: Implemented 
+
 ## Installation
 Download XLink firmware from [RELEASE](https://github.com/rjjrbatarao/XLink/releases) or use this link [WEB INSTALLER](https://xlnk.xmachinesystems.com/)\
 NOTE: Before diving into below Steps please Power up your Tplink ap and connect to dhcp source or fiber modem!! You must set the SSID!! follow this guide [GUIDE](https://www.tp-link.com/us/configuration-guides/quick_setup_guide_for_standalone_omada_eaps/?configurationId=18595#_idTextAnchor007)
