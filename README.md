@@ -22,24 +22,24 @@ This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` 
 | 13  | 13  | COIN POWER CUT  |
 
 ## Installation
-download xlink firmware from [release](https://github.com/rjjrbatarao/XLink/releases) or use this link [installer](https://xlnk.xmachinesystems.com/)
+download xlink firmware from [release](https://github.com/rjjrbatarao/XLink/releases) or use this link [installer](https://xlnk.xmachinesystems.com/)\
 NOTE: Power up your Tplink ap and connect to internet and dhcp source You must set the SSID
 
 ## Step 1
-You must have installed the drivers if com not detected, `CP2xx or CH3xx` is the keyword!!
+You must have installed the drivers if com not detected, `CP2xx or CH3xx` is the keyword!!\
 ![image](https://github.com/user-attachments/assets/3b80596e-02b3-4977-afda-3c003596b376)
 
 ## Step 2
-Click install and wait to finish in 3 to 4 minutes
+Click install and wait to finish in 3 to 4 minutes\
 ![image](https://github.com/user-attachments/assets/cb70b19c-50ea-407f-8871-17027ef9da0f)
 
 ## Step 3
-Scan network and put your TPlink ap ssid and password if required
-Note if failed just refresh and follow 1 but in step 2 choos Connect to Wi-Fi
+Scan network and put your TPlink ap ssid and password if required\
+Note if failed just refresh and follow 1 but in step 2 choos Connect to Wi-Fi\
 ![image](https://github.com/user-attachments/assets/bfdfe651-3502-4c68-ae31-b08eaca8646d)
 
 ## Step 4
-Click `Connect` and afterwards `Visit Device`, details on this will be used later, popup will show
+Click `Connect` and afterwards `Visit Device`, details on this will be used later, popup will show\
 ![image](https://github.com/user-attachments/assets/b473a422-580b-44b4-93e3-03ba5f086a4d)
 
 ## Step 5
@@ -50,13 +50,13 @@ Click `Connect` and afterwards `Visit Device`, details on this will be used late
 ![image](https://github.com/user-attachments/assets/14814f20-5cfc-402f-95f9-5dcafbaba664)
 
 ## Pin remapping
-tutorial TODO!
+tutorial TODO!\
 
 
 ## Api Documentation
-POST: /settings
-AUTH: Basic Auth
-CREDENTIALS: admin | admin
+POST: /settings\
+AUTH: Basic Auth\
+CREDENTIALS: admin | admin\
 PAYLOAD:
 ```json
 {
@@ -66,9 +66,9 @@ PAYLOAD:
 }
 ```
 ## Other settings
-POST: /settings
-AUTH: Basic Auth
-CREDENTIALS: admin | admin
+POST: /settings\
+AUTH: Basic Auth\
+CREDENTIALS: admin | admin\
 PAYLOAD:
 ```json
 {
@@ -77,11 +77,11 @@ PAYLOAD:
 "pin_coin_level":"1"
 }
 ```
-POST: /rates
-AUTH: Basic Auth
-CREDENTIALS: admin | admin
+POST: /rates\
+AUTH: Basic Auth\
+CREDENTIALS: admin | admin\
 PAYLOAD:
 ```json
 [{"p":1,"t":5},{"p":5,"t":30},{"p":10,"t":60},{"p":20,"t":120},{"p":50,"t":300}]
 ```
-NOTE: p is price and t is time in minutes
+NOTE: p is price and t is time in minutes\
