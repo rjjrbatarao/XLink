@@ -136,6 +136,9 @@ curl -u admin:admin --header "Content-Type: application/json" \
 ```
 NOTE: p is price and t is time in minutes
 
+## Portal Customizations
+Above is the 11kb file in portal folder for TPlink AP will be needed to modify if using mikrotik or openwrt setup.
+
 ## ISSUES and TODO
 - no cleanup process yet, client accumulation could make esp32 to stop accepting new customers need to be in next release TODO
 - no autopause, ongoing idle-timeout introduced on the settings and still under development TODO
