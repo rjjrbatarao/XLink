@@ -35,7 +35,7 @@ Note: this is 1:1 meaning 1 esp per AP so if mikrotik used you cannot add more e
 | Other Openwrt  | ✅  | ❌  | ❌ | 10 - 100 | 2.4G or 5G | LOW-HIGH | YES |in openwrt setting ttl is possible so no need external router |
 
 ## Modes
-Voucher generator manual: TODO
+Voucher generator manual: TODO\
 Piso wifi vendo autologin: Implemented 
 
 ## Installation
