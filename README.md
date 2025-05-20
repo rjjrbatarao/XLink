@@ -1,6 +1,6 @@
 [![Production](https://img.shields.io/badge/Production%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors) [![Alpha](https://img.shields.io/badge/Alpha%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Testing](https://img.shields.io/badge/Testing%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
-# XLink
+# XLink Vendo
 Xlink firmware is FREE Proof Of Concept voucher and cash terminal for `TPLink EAP 1xx/2xx`, `Mikrotik` and soon any `OpenWRT` access points.
 This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` for customer wifi session generation.
 ![portal](https://github.com/user-attachments/assets/cee5afbb-48fc-43e9-b235-11ee1a98e9b3)
