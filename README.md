@@ -22,7 +22,7 @@ This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` 
 | 13  | 13  | COIN POWER CUT  |
 
 ## Installation
-Download XLink firmware from `[release](https://github.com/rjjrbatarao/XLink/releases)` or use this link `[installer](https://xlnk.xmachinesystems.com/)`\
+Download XLink firmware from [RELEASE](https://github.com/rjjrbatarao/XLink/releases) or use this link [WEB INSTALLER](https://xlnk.xmachinesystems.com/)\
 NOTE: Power up your Tplink ap and connect to internet and dhcp source You must set the SSID
 
 ## Step 1
