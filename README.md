@@ -34,12 +34,12 @@ Click install and wait to finish in 3 to 4 minutes, and after click `Next`\
 ![image](https://github.com/user-attachments/assets/cb70b19c-50ea-407f-8871-17027ef9da0f)
 
 ## Step 3
-Scanning network and put your TPlink ap ssid and password if required\
+Scanning network and put your TPlink ap ssid and password if required. License is not used here leave it blank.\
 Note: if failed just refresh and follow 1 but in step 2 choose `Connect to Wi-Fi`\
 ![image](https://github.com/user-attachments/assets/bfdfe651-3502-4c68-ae31-b08eaca8646d)
 
 ## Step 4
-Click `Connect` and afterwards `Visit Device`, details on this will be used later. License is not used here leave it blank.
+Click `Connect` and afterwards `Visit Device`, details on this will be used later.
 Popup is the External web portal save this for later use in step 5.
 ![image](https://github.com/user-attachments/assets/b473a422-580b-44b4-93e3-03ba5f086a4d)
 
