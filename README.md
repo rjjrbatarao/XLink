@@ -38,7 +38,8 @@ Click Connect and Visit Device, details on this will be used later, popup will s
 ![image](https://github.com/user-attachments/assets/b473a422-580b-44b4-93e3-03ba5f086a4d)
 
 ## Step 5
-![image](https://github.com/user-attachments/assets/c8493ce3-6a01-4e70-adf3-424926cb38de)
+![image](https://github.com/user-attachments/assets/e533cde0-7f53-4ace-a75e-84bc20582bc6)
+
 
 ## Step 6
 ![image](https://github.com/user-attachments/assets/14814f20-5cfc-402f-95f9-5dcafbaba664)
