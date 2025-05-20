@@ -30,7 +30,7 @@ You must have installed the drivers if com not detected, `CP2xx or CH3xx` is the
 ![image](https://github.com/user-attachments/assets/3b80596e-02b3-4977-afda-3c003596b376)
 
 ## Step 2
-Click install and wait to finish in 3 to 4 minutes\
+Click install and wait to finish in 3 to 4 minutes, and after click `Next`\
 ![image](https://github.com/user-attachments/assets/cb70b19c-50ea-407f-8871-17027ef9da0f)
 
 ## Step 3
