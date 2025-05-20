@@ -52,17 +52,23 @@ Click `Connect` and afterwards `Visit Device`, details on this will be used late
 ## Pin remapping
 tutorial TODO!
 
+
+## Api Documentation
 POST: /settings
+AUTH: Basic Auth
+CREDENTIALS: admin | admin
 PAYLOAD:
 ```json
 {
-
 "pin_coin":"15",
 "pin_coin_cut":"13"
+"pin_coin_level":"1"
 }
 ```
 ## Other settings
 POST: /settings
+AUTH: Basic Auth
+CREDENTIALS: admin | admin
 PAYLOAD:
 ```json
 {
@@ -72,6 +78,8 @@ PAYLOAD:
 }
 ```
 POST: /rates
+AUTH: Basic Auth
+CREDENTIALS: admin | admin
 PAYLOAD:
 ```json
 [{"p":1,"t":5},{"p":5,"t":30},{"p":10,"t":60},{"p":20,"t":120},{"p":50,"t":300}]
