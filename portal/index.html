@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XLink Xmachines</title>
+    <style type='text/css'>
+	:root {
+		--timer-start: 3s;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: 'Poppins', sans-serif;
+	}
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background: #1f293a;
+	}
+	.container {
+		position: relative;
+		width: 256px;
+		height: 256px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.container span {
+		position: absolute;
+		left: 0;
+		width: 32px;
+		height: 6px;
+		background: #2c4766;
+		border-radius: 8px;
+		transform-origin: 128px;
+		transform: scale(2.2) rotate(calc(var(--i) * (360deg / 50)));
+		animation: animateBlink var(--timer-start) linear infinite;
+		animation-delay: calc(var(--i) * (var(--timer-start) / 50));
+	}
+	@keyframes animateBlink {
+		0% {
+			background: #0ef;
+		}
+		25% {
+			background: #2c4766;
+		}
+	}
+	.login-box {
+		position: absolute;
+		width: 400px;
+	}
+	.login-box form {
+		width: 100%;
+		padding: 0 50px;
+	}
+	h2 {
+		font-size: 2em;
+		color: #0ef;
+		text-align: center;
+	}
+	
+	h1 {
+		font-size: 5em;
+		color: #0ef;
+		text-align: center;
+	}
+	.input-box {
+		position: relative;
+		margin: 25px 0;
+	}
+	.input-box input {
+		width: 100%;
+		height: 50px;
+		background: transparent;
+		border: 2px solid #2c4766;
+		outline: none;
+		border-radius: 40px;
+		font-size: 1em;
+		color: #fff;
+		padding: 0 20px;
+		transition: .1s ease;
+	}
+	.input-box input:focus,
+	.input-box input:valid {
+		border-color: #0ef;
+	}
+	.input-box label {
+		position: absolute;
+		top: 50%;
+		left: 20px;
+		transform: translateY(-50%);
+		font-size: 1em;
+		color: #fff;
+		pointer-events: none;
+		transition: .1s ease;
+	}
+	.input-box input:focus~label,
+	.input-box input:valid~label {
+		top: 1px;
+		font-size: .8em;
+		background: #1f293a;
+		padding: 0 6px;
+		color: #0ef;
+	}
+	.btn {
+		width: 100%;
+		height: 45px;
+		background: #0ef;
+		border: none;
+		outline: none;
+		border-radius: 40px;
+		cursor: pointer;
+		font-size: 1em;
+		color: #1f293a;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	.signup-link {
+		margin: 20px 0 10px;
+		text-align: center;
+	}
+	.signup-link a {
+		font-size: 1em;
+		color: #0ef;
+		text-decoration: none;
+		font-weight: 600;
+	}
+	.signup-link a:hover {
+		text-decoration: underline;
+	}
+	.scale-down-center {
+		-webkit-animation: scale-down-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+				animation: scale-down-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	}
+	
+	@-webkit-keyframes scale-down-center {
+	  0% {
+		-webkit-transform: scale(1);
+				transform: scale(1);
+	  }
+	  100% {
+		-webkit-transform: scale(0.0);
+				transform: scale(0.0);
+	  }
+	}
+	@keyframes scale-down-center {
+	  0% {
+		-webkit-transform: scale(1);
+				transform: scale(1);
+	  }
+	  100% {
+		-webkit-transform: scale(0.0);
+				transform: scale(0.0);
+	  }
+	}
+	.scale-up-center {
+		-webkit-animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	}
+	@-webkit-keyframes scale-up-center {
+	  0% {
+		-webkit-transform: scale(0.0);
+				transform: scale(0.0);
+	  }
+	  100% {
+		-webkit-transform: scale(1);
+				transform: scale(1);
+	  }
+	}
+	@keyframes scale-up-center {
+	  0% {
+		-webkit-transform: scale(0.0);
+				transform: scale(0.0);
+	  }
+	  100% {
+		-webkit-transform: scale(1);
+				transform: scale(1);
+	  }
+	}
+	</style>
+</head>
+<body onload="setVoucher()">
+    <div class="container">
+        <div class="login-box">
+			<div id="initial-id" >
+				<h2>PiSo WiFi</h2>
+				<form id='form' method='post'>
+					<div class="input-box">
+						<input id="voucher-id" type="text" name='username' required>
+						<label>Voucher</label>
+					</div>
+					<div class="input-box" hidden>
+						<input type="password" name='password' >
+						<label>Password</label>
+					</div>
+					<div style='display:none'><span>clientMac:</span><input type='text' id='cid' name='clientMac' /></div>
+					<button id="submit-id" type="submit" class="btn">VOUCHER</button>
+						
+					<button type="button" class="btn" onclick="clickInsert()">INSERT</button>
+					
+					<div class="signup-link">
+						<a href="#">xlink @2025</a>
+					</div>
+				</form>
+			</div>
+			<div id="insert-id" hidden>
+				<h1 id="countup-id"></h1>
+				<h2 style="margin-bottom:20px"  id="package-id"></h2>
+				<form id='form' method='post'>
+					<button id="done-id" type="button" class="btn" onclick="clickDone()"  hidden>DONE</button>
+					<button id="cancel-id" type="button" class="btn" onclick="clickCancel()" >CANCEL</button>
+				</form>
+			</div>
+        </div>
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+        <span style="--i:4;"></span>
+        <span style="--i:5;"></span>
+        <span style="--i:6;"></span>
+        <span style="--i:7;"></span>
+        <span style="--i:8;"></span>
+        <span style="--i:9;"></span>
+        <span style="--i:10;"></span>
+        <span style="--i:11;"></span>
+        <span style="--i:12;"></span>
+        <span style="--i:13;"></span>
+        <span style="--i:14;"></span>
+        <span style="--i:15;"></span>
+        <span style="--i:16;"></span>
+        <span style="--i:17;"></span>
+        <span style="--i:18;"></span>
+        <span style="--i:19;"></span>
+        <span style="--i:20;"></span>
+        <span style="--i:21;"></span>
+        <span style="--i:22;"></span>
+        <span style="--i:23;"></span>
+        <span style="--i:24;"></span>
+        <span style="--i:25;"></span>
+        <span style="--i:26;"></span>
+        <span style="--i:27;"></span>
+        <span style="--i:28;"></span>
+        <span style="--i:29;"></span>
+        <span style="--i:30;"></span>
+        <span style="--i:31;"></span>
+        <span style="--i:32;"></span>
+        <span style="--i:33;"></span>
+        <span style="--i:34;"></span>
+        <span style="--i:35;"></span>
+        <span style="--i:36;"></span>
+        <span style="--i:37;"></span>
+        <span style="--i:38;"></span>
+        <span style="--i:39;"></span>
+        <span style="--i:40;"></span>
+        <span style="--i:41;"></span>
+        <span style="--i:42;"></span>
+        <span style="--i:43;"></span>
+        <span style="--i:44;"></span>
+        <span style="--i:45;"></span>
+        <span style="--i:46;"></span>
+        <span style="--i:47;"></span>
+        <span style="--i:48;"></span>
+        <span style="--i:49;"></span>
+    </div>
+	
+	<script type='text/javascript'>
+		var submitUrl = 'http://' + getQueryString('target') + '/portal/auth';
+		var counterInstance = null;
+		var previousCredit = 0;
+		var testUrl = "";
+		var customerMac = getQueryString('clientMac');
+		document.getElementById('form').action = submitUrl;
+		document.getElementById('cid').value = getQueryString('clientMac');
+		function getQueryString(name) {
+			var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+			var r = window.location.search.substr(1).match(reg);
+			if (r != null) return unescape(r[2]); return null;
+		}
+		function timeConvert(minutes) {
+		   return `${Math.floor(minutes / 24 / 60)}D:${Math.floor((minutes / 60) % 24)}H:${Math.floor(minutes % 60)}M`;
+		}		
+		function getUrlRand(path){
+			return `${testUrl}/${path}?mac=${customerMac}&rand=` + Math.round(Date.now()/ 1000);
+		}
+		function getEl(el){
+			return document.getElementById(el);
+		}
+		function setVoucher(){
+			var match = document.cookie.match(new RegExp("(^| )" + "voucher" + "=([^;]+)"));
+			var voucher = match ? match[2] : "";		
+			getEl('voucher-id').value = voucher;
+		}		
+		function setStyle(key, value){
+			document.documentElement.style.setProperty(key, value);
+		}
+		function creditCheck(data){
+			console.log(data.credits);
+			if(data.credits != previousCredit){
+			    getEl("cancel-id").setAttribute('hidden','');
+			    getEl("done-id").removeAttribute('hidden');			
+				getEl("package-id").innerHTML = "P"+ data.credits + " | " + timeConvert(data.minutes);
+				previousCredit = data.credits;
+				countDownStart(100);
+			}
+		}
+		function voucherSubmit(data){
+		    document.cookie = `voucher=${data.voucher}; expires=Thu, 1 Jan 2099 00:00:00 UTC; path=/`;
+			getEl("voucher-id").value = data.voucher;
+			getEl("submit-id").click();
+		}
+		function handleInsert(){
+			fetch(getUrlRand('insert'))
+			.then(response => response.json())
+			.then(data => console.log(data))
+			.catch(error => console.error('Error:', error));
+		}
+		function handleCancel(){
+			fetch(getUrlRand('cancel'))
+			.then(response => response.json())
+			.then(data => console.log(data))
+			.catch(error => console.error('Error:', error));
+		}
+		function handleServing(){
+			fetch(getUrlRand('serving'))
+			.then(response => response.json())
+			.then(data => creditCheck(data))
+			.catch(error => console.error('Error:', error));
+		}
+		function handleDone(){
+			fetch(getUrlRand('done'))
+			.then(response => response.json())
+			.then(data => voucherSubmit(data))
+			.catch(error => console.error('Error:', error));
+		}		
+		function downCounter(start){
+			counterInstance = setTimeout(() => {
+			    var countup_el = getEl('countup-id');
+				countup_el.innerHTML = start--;
+				if(start > 0){
+					downCounter(start);
+					handleServing();
+				} else {
+				    clearTimeout(counterInstance);
+					counterInstance = null;
+					clickCancel();
+				}
+			},1000);		
+		}
+		function countDownStart(start){
+			if(counterInstance != null){
+				var countup_el = getEl('countup-id');
+				clearTimeout(counterInstance);
+				counterInstance = null;
+				countup_el.innerHTML = '';
+			}		
+			downCounter(start);
+		}
+		function clickDone(){
+			handleDone();
+			setStyle('--timer-start', '0.2s');
+			countDownStart(100);
+		}
+		function clickInsert(){
+			handleInsert();
+			var initial_el = getEl('initial-id');
+			var insert_el = getEl('insert-id');
+			setStyle('--timer-start', '0.2s');
+			initial_el.classList.remove('scale-up-center');
+			initial_el.classList.add('scale-down-center');
+			setTimeout(function(){
+				setStyle('--timer-start', '50s');		
+			    initial_el.setAttribute('hidden','');
+			    insert_el.removeAttribute('hidden');
+				insert_el.classList.add('scale-up-center');
+				initial_el.classList.remove('scale-down-center');
+				countDownStart(100);
+			},500);
+		}
+		function clickCancel(){
+			handleCancel();
+			previousCredit = 0;
+			clearTimeout(counterInstance);
+			counterInstance = null;		
+			getEl("package-id").innerHTML = "";			
+			var initial_el = getEl('initial-id');
+			var insert_el = getEl('insert-id');
+			setStyle('--timer-start', '0.2s');
+			insert_el.classList.remove('scale-up-center');
+			insert_el.classList.add('scale-down-center');
+			setTimeout(function(){
+				setStyle('--timer-start', '3s');
+				insert_el.setAttribute('hidden','');				
+			    initial_el.removeAttribute('hidden');
+				insert_el.classList.remove('scale-down-center');
+				initial_el.classList.add('scale-up-center');		
+			},500);
+		}		
+	</script>
+</body>
+</html>
