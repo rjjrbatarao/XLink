@@ -55,7 +55,7 @@ Here we have our basic api list to change settings and pin mapping you must know
 CURL: [download](https://curl.se/windows/) for cli\
 POSTMAN: [download](https://www.postman.com/downloads/) for graphical
 
-# Example CURL command
+### Example CURL command
 ```
 curl --header "Content-Type: application/json" \
   --request POST \
