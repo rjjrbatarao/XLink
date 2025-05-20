@@ -43,6 +43,7 @@ Click `Connect` and afterwards `Visit Device`, details on this will be used late
 ![image](https://github.com/user-attachments/assets/b473a422-580b-44b4-93e3-03ba5f086a4d)
 
 ## Step 5
+10.5.50.220 is the ip given by router to ESP32. If you click the Visit Device you will get the IP
 ![image](https://github.com/user-attachments/assets/e533cde0-7f53-4ace-a75e-84bc20582bc6)
 
 
@@ -84,13 +85,13 @@ AUTH: Basic Auth\
 CREDENTIALS: admin | admin\
 PAYLOAD:
 ```json
-{"admin_username":"admin","admin_password":"admin","pin_coin_level":"1"}
+{"admin_username":"admin","admin_password":"admin","radius_secret":"secret123"}
 ```
 CURL:
 ```
 curl -u admin:admin --header "Content-Type: application/json" \
   --request POST \
-  --data '{"admin_username":"admin","admin_password":"admin","pin_coin_level":"1"}' \
+  --data '{"admin_username":"admin","admin_password":"admin","radius_secret":"secret123"}' \
   http://10.5.50.220/settings
 ```
 ---
