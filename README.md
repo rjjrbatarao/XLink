@@ -11,7 +11,7 @@ This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` 
 ## Important! Requirements
 - tplink eap 110 or 225 with configured ssid
 - esp32 devkit
-- installed serial drivers `CP2xx or CH3xx`
+- installed serial drivers `CP2xx or CH3xx` provided above
 
 ## Pinout Wireless
 ![image](https://github.com/user-attachments/assets/9cc2a499-ce36-4a10-93ce-48d9b1ec1c7c)
