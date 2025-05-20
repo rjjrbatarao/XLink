@@ -1,7 +1,7 @@
 [![Production](https://img.shields.io/badge/Production%3F-no-red.svg)](https://bitbucket.org/lbesson/ansi-colors) [![Alpha](https://img.shields.io/badge/Alpha%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Testing](https://img.shields.io/badge/Testing%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 # XLink
-Xlink firmware is a  proof of concept voucher and credit terminal for `TPLink EAP 1xx/2xx`, `Mikrotik` and soon any `OpenWRT` access points.
+Xlink firmware is a  PROOF OF CONCEPT voucher and credit terminal for `TPLink EAP 1xx/2xx`, `Mikrotik` and soon any `OpenWRT` access points.
 This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` for customer wifi session generation.
 
 ![image](https://github.com/user-attachments/assets/b11121dd-5844-4771-a13a-6766e4714b3a)
@@ -50,7 +50,7 @@ Click `Connect` and afterwards `Visit Device`, details on this will be used late
 ![image](https://github.com/user-attachments/assets/14814f20-5cfc-402f-95f9-5dcafbaba664)
 
 ## Pin remapping
-
+tutorial TODO!
 
 POST: /settings
 PAYLOAD:
