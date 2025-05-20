@@ -23,16 +23,16 @@ Note: this is 1:1 meaning 1 esp per AP so if mikrotik used you cannot add more e
 | 13  | 13  | COIN POWER CUT  |
 
 ## Connection Setup Per AP
-| Name  | ESP32 | EXTERNAL AP | EXTERNAL ROUTER | description |
+| Name  | ESP32 | EXTERNAL AP | EXTERNAL ROUTER | CLIENTS | FREQUENCY | PRICE |description |
 | - | - | - | - | - |
-| TPLink EAP110  | ✅  | ❌  | optional | router is required if you need ttl 1 or (antitether) for budget starter vendo 10 to 15 clients| 
-| TPLink EAP225   | ✅  | ❌  | optional | router is required if you need ttl 1 or (antitether) high end with 2/5ghz and 30+ clients| 
-| Mikrotik Haplite  | ✅  | optional  | ❌ | good with antitheter but need external AP for extending wifi range | 
-| Mikrotik RBMetal  | ✅  | ❌  | ❌ | supports antitether only 2.4ghz AP | 
-| Mikrotik wAP  | ✅  | ❌  | ❌ | this might be the best setup for price and frequency to avoid antitether with 2/5ghz | 
-| Comfast E314n V2 Openwrt  | ✅  | ❌  | ❌ | in openwrt setting ttl is possible so no need external router |
-| Comfast CF-E73 V2 Openwrt  | ✅  | ❌  | ❌ | in openwrt setting ttl is possible so no need external router |
-| Other Openwrt  | ✅  | ❌  | ❌ | in openwrt setting ttl is possible so no need external router |
+| TPLink EAP110  | ✅  | ❌  | optional | 10 - 15 | 2.4G | LOW |router is required if you need ttl 1 or (antitether) for budget starter vendo| 
+| TPLink EAP225   | ✅  | ❌  | optional | 20 - 40 | 2.4G + 5G | MID |router is required if you need ttl 1 or (antitether) high end| 
+| Mikrotik Haplite  | ✅  | optional  | ❌ | 10 - 15 | 2.4G | LOW |good with antitheter but need external AP for extending wifi range | 
+| Mikrotik RBMetal  | ✅  | ❌  | ❌ | 20 - 30 | 2.4G | HIGH |supports antitether but expensive | 
+| Mikrotik wAP  | ✅  | ❌  | ❌ | 20 - 30 | 2.4G + 5G | MID |this might be the best setup for price and frequency to avoid antitether| 
+| Comfast E314n V2 Openwrt  | ✅  | ❌  | ❌ | 10 - 15 | 2.4G | LOW |in openwrt setting ttl is possible so no need external router |
+| Comfast CF-E73 V2 Openwrt  | ✅  | ❌  | ❌ | 10 - 15 | 2.4G | LOW |in openwrt setting ttl is possible so no need external router |
+| Other Openwrt  | ✅  | ❌  | ❌ | 10 - 100 | 2.4G or 5G | LOW-HIGH |in openwrt setting ttl is possible so no need external router |
 
 ## Installation
 Download XLink firmware from [RELEASE](https://github.com/rjjrbatarao/XLink/releases) or use this link [WEB INSTALLER](https://xlnk.xmachinesystems.com/)\
