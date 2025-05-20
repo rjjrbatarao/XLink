@@ -40,7 +40,7 @@ Note: if failed just refresh and follow 1 but in step 2 choose `Connect to Wi-Fi
 
 ## Step 4
 Click `Connect` and afterwards `Visit Device`, details on this will be used later. License is not used here leave it blank.
-Popup is the External web portal save this for later use
+Popup is the External web portal save this for later use in step 5.
 ![image](https://github.com/user-attachments/assets/b473a422-580b-44b4-93e3-03ba5f086a4d)
 
 ## Step 5
