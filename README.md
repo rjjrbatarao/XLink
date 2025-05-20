@@ -2,7 +2,7 @@
 
 # XLink
 Xlink firmware is a  proof of concept voucher and credit terminal for `TPLink EAP 1xx/2xx`, `Mikrotik` and soon any `OpenWRT` access points.
-This is done by the XLink firmware that acts as coin and bill cash terminal for customer wifi access generation.
+This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` for customer wifi session generation.
 
 ![image](https://github.com/user-attachments/assets/b11121dd-5844-4771-a13a-6766e4714b3a)
 
