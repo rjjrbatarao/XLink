@@ -108,4 +108,4 @@ curl -u admin:admin --header "Content-Type: application/json" \
   --data '[{"p":1,"t":5},{"p":5,"t":30},{"p":10,"t":60},{"p":20,"t":120},{"p":50,"t":300}]' \
   http://10.5.50.220/rates
 ```
-NOTE: p is price and t is time in minutes\
+NOTE: p is price and t is time in minutes
