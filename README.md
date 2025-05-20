@@ -55,14 +55,15 @@ Here we have our basic api list to change settings and pin mapping you must know
 CURL: [download](https://curl.se/windows/) for cli\
 POSTMAN: [download](https://www.postman.com/downloads/) for graphical
 
-### Example CURL command
+### Example CURL command BASIS
 ```
-curl --header "Content-Type: application/json" \
+curl -u admin:admin --header "Content-Type: application/json" \
   --request POST \
   --data '{"pin_coin":"15","pin_coin_cut":"13","pin_coin_level":"1"}' \
   http://10.5.50.220/settings
 ```
 
+---
 POST: /settings\
 AUTH: Basic Auth\
 CREDENTIALS: admin | admin\
@@ -70,7 +71,14 @@ PAYLOAD:
 ```json
 {"pin_coin":"15","pin_coin_cut":"13","pin_coin_level":"1"}
 ```
-## Other settings
+CURL:
+```
+curl -u admin:admin --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"pin_coin":"15","pin_coin_cut":"13","pin_coin_level":"1"}' \
+  http://10.5.50.220/settings
+```
+---
 POST: /settings\
 AUTH: Basic Auth\
 CREDENTIALS: admin | admin\
@@ -78,11 +86,26 @@ PAYLOAD:
 ```json
 {"admin_username":"admin","admin_password":"admin","pin_coin_level":"1"}
 ```
+CURL:
+```
+curl -u admin:admin --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"admin_username":"admin","admin_password":"admin","pin_coin_level":"1"}' \
+  http://10.5.50.220/settings
+```
+---
 POST: /rates\
 AUTH: Basic Auth\
 CREDENTIALS: admin | admin\
 PAYLOAD:
 ```json
 [{"p":1,"t":5},{"p":5,"t":30},{"p":10,"t":60},{"p":20,"t":120},{"p":50,"t":300}]
+```
+CURL:
+```
+curl -u admin:admin --header "Content-Type: application/json" \
+  --request POST \
+  --data '[{"p":1,"t":5},{"p":5,"t":30},{"p":10,"t":60},{"p":20,"t":120},{"p":50,"t":300}]' \
+  http://10.5.50.220/rates
 ```
 NOTE: p is price and t is time in minutes\
