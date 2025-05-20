@@ -51,7 +51,9 @@ Click `Connect` and afterwards `Visit Device`, details on this will be used late
 
 
 ## Api Documentation
-Here we have our basic api list to change settings and pin mapping you must know how to use `POSTMAN` and `CURL` to use this method.
+Here we have our basic api list to change settings and pin mapping you must know how to use `POSTMAN` or `CURL` to use this method.\
+CURL: [download](https://curl.se/windows/) for cli\
+POSTMAN: [download](https://www.postman.com/downloads/) for graphical
 
 # Example CURL command
 ```
