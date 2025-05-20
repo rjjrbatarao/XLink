@@ -24,7 +24,7 @@ Note: this is 1:1 meaning 1 esp per AP so if mikrotik used you cannot add more e
 
 ## Connection Setup Per AP
 | Name  | ESP32 | EXTERNAL AP | EXTERNAL ROUTER | CLIENTS | FREQUENCY | PRICE |description |
-| - | - | - | - | - |
+| - | - | - | - | - | - | - | - |
 | TPLink EAP110  | ✅  | ❌  | optional | 10 - 15 | 2.4G | LOW |router is required if you need ttl 1 or (antitether) for budget starter vendo| 
 | TPLink EAP225   | ✅  | ❌  | optional | 20 - 40 | 2.4G + 5G | MID |router is required if you need ttl 1 or (antitether) high end| 
 | Mikrotik Haplite  | ✅  | optional  | ❌ | 10 - 15 | 2.4G | LOW |good with antitheter but need external AP for extending wifi range | 
