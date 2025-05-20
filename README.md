@@ -59,7 +59,7 @@ POSTMAN: [download](https://www.postman.com/downloads/) for graphical
 ```
 curl --header "Content-Type: application/json" \
   --request POST \
-  --data '{"pin_coin":"15","pin_coin_cut":"13""pin_coin_level":"1"}' \
+  --data '{"pin_coin":"15","pin_coin_cut":"13","pin_coin_level":"1"}' \
   http://10.5.50.220/settings
 ```
 
@@ -68,7 +68,7 @@ AUTH: Basic Auth\
 CREDENTIALS: admin | admin\
 PAYLOAD:
 ```json
-{"pin_coin":"15","pin_coin_cut":"13""pin_coin_level":"1"}
+{"pin_coin":"15","pin_coin_cut":"13","pin_coin_level":"1"}
 ```
 ## Other settings
 POST: /settings\
@@ -76,7 +76,7 @@ AUTH: Basic Auth\
 CREDENTIALS: admin | admin\
 PAYLOAD:
 ```json
-{"admin_username":"admin","admin_password":"admin""pin_coin_level":"1"}
+{"admin_username":"admin","admin_password":"admin","pin_coin_level":"1"}
 ```
 POST: /rates\
 AUTH: Basic Auth\
