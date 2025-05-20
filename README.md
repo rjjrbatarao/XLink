@@ -49,21 +49,24 @@ Click `Connect` and afterwards `Visit Device`, details on this will be used late
 ## Step 6
 ![image](https://github.com/user-attachments/assets/14814f20-5cfc-402f-95f9-5dcafbaba664)
 
-## Pin remapping
-tutorial TODO!\
-
 
 ## Api Documentation
+Here we have our basic api list to change settings and pin mapping you must know how to use `POSTMAN` and `CURL` to use this method.
+
+# Example CURL command
+```
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"pin_coin":"15","pin_coin_cut":"13""pin_coin_level":"1"}' \
+  http://10.5.50.220/settings
+```
+
 POST: /settings\
 AUTH: Basic Auth\
 CREDENTIALS: admin | admin\
 PAYLOAD:
 ```json
-{
-"pin_coin":"15",
-"pin_coin_cut":"13"
-"pin_coin_level":"1"
-}
+{"pin_coin":"15","pin_coin_cut":"13""pin_coin_level":"1"}
 ```
 ## Other settings
 POST: /settings\
@@ -71,11 +74,7 @@ AUTH: Basic Auth\
 CREDENTIALS: admin | admin\
 PAYLOAD:
 ```json
-{
-"admin_username":"admin",
-"admin_password":"admin"
-"pin_coin_level":"1"
-}
+{"admin_username":"admin","admin_password":"admin""pin_coin_level":"1"}
 ```
 POST: /rates\
 AUTH: Basic Auth\
