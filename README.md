@@ -30,8 +30,8 @@ Note: this is 1:1 meaning 1 esp per AP so if mikrotik used you cannot add more e
 | Mikrotik Haplite  | ✅  | optional  | ❌ | 10 - 15 | 2.4G | LOW | YES |good with antitheter but need external AP for extending wifi range | 
 | Mikrotik RBMetal  | ✅  | ❌  | ❌ | 20 - 30 | 2.4G | HIGH | YES |supports antitether but expensive | 
 | Mikrotik wAP  | ✅  | ❌  | ❌ | 20 - 30 | 2.4G + 5G | MID | YES |this might be the best setup for price and frequency to avoid antitether| 
-| Comfast E314n V2 Openwrt  | ✅  | ❌  | ❌ | 10 - 15 | 2.4G | YES | YES |in openwrt setting ttl is possible so no need external router |
-| Comfast CF-E73 V2 Openwrt  | ✅  | ❌  | ❌ | 10 - 15 | 2.4G | YES | YES |in openwrt setting ttl is possible so no need external router |
+| Comfast E314n V2 Openwrt  | ✅  | ❌  | ❌ | 10 - 15 | 2.4G | LOW | YES |in openwrt setting ttl is possible so no need external router |
+| Comfast CF-E73 V2 Openwrt  | ✅  | ❌  | ❌ | 10 - 15 | 2.4G | LOW | YES |in openwrt setting ttl is possible so no need external router |
 | Other Openwrt  | ✅  | ❌  | ❌ | 10 - 100 | 2.4G or 5G | LOW-HIGH | YES |in openwrt setting ttl is possible so no need external router |
 
 ## Modes
