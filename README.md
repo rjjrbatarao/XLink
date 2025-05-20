@@ -30,7 +30,8 @@ Note: this is 1:1 meaning 1 esp per AP so if mikrotik used you cannot add more e
 | Mikrotik Haplite  | ✅  | optional  | ❌ | good with antitheter but need external AP for extending wifi range | 
 | Mikrotik Metal  | ✅  | ❌  | ❌ | supports antitether | 
 | Mikrotik wAP  | ✅  | ❌  | ❌ | this might be the best setup to avoid antitether with 2/5ghz | 
-| Openwrt   | ✅  | ❌  | ❌ | in openwrt setting ttl is possible so no need external router |
+| Comfast Openwrt  | ✅  | ❌  | ❌ | in openwrt setting ttl is possible so no need external router |
+| Other Openwrt  | ✅  | ❌  | ❌ | in openwrt setting ttl is possible so no need external router |
 
 ## Installation
 Download XLink firmware from [RELEASE](https://github.com/rjjrbatarao/XLink/releases) or use this link [WEB INSTALLER](https://xlnk.xmachinesystems.com/)\
