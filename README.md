@@ -9,9 +9,10 @@ This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` 
 
 
 ## Important! Requirements
-- tplink eap 110 or 225 with configured ssid
+- tplink eap 110 or 225 with configured ssid or mikrotik and soon openwrt
 - esp32 devkit for now, soon esp32s3 n16r8 will be recommended!!
-- installed serial drivers `CP2xx or CH3xx` provided above
+- installed serial drivers `CP2xx or CH3xx` provided above drivers folder
+Note: this is 1:1 meaning 1 esp per AP so if mikrotik used you cannot add more esp32!!
 
 ## Pinout Wireless
 ![image](https://github.com/user-attachments/assets/9cc2a499-ce36-4a10-93ce-48d9b1ec1c7c)
@@ -20,6 +21,16 @@ This is done by the `XLink` firmware that acts as coin and bill `Cash Terminal` 
 | - | - | - |
 | 15  | 15  | COIN PIN  |
 | 13  | 13  | COIN POWER CUT  |
+
+## Connection Setup Per AP
+| Name  | ESP32 | EXTERNAL AP | EXTERNAL ROUTER | description |
+| - | - | - | - | - | - |
+| TPLink EAP110  | ✅  | ❌  | optional | router is required if you need ttl 1 or (antitether)| 
+| TPLink EAP225   | ✅  | ❌  | optional | router is required if you need ttl 1 or (antitether)| 
+| Mikrotik Haplite  | ✅  | optional  | ❌ | good with antitheter but need external AP for extending wifi range | 
+| Mikrotik Metal  | ✅  | ❌  | ❌ | supports antitether | 
+| Mikrotik wAP  | ✅  | ❌  | ❌ | this might be the best setup to avoid antitether with 2/5ghz | 
+| Openwrt   | ✅  | ❌  | ❌ | in openwrt setting ttl is possible so no need external router |
 
 ## Installation
 Download XLink firmware from [RELEASE](https://github.com/rjjrbatarao/XLink/releases) or use this link [WEB INSTALLER](https://xlnk.xmachinesystems.com/)\
