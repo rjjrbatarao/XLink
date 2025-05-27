@@ -137,8 +137,10 @@ NOTE: p is price and t is time in minutes and i is the idle-timeout for auto pau
 ## Portal Customizations
 Above is the 11kb file in portal folder for TPlink AP will be needed to modify if using mikrotik or openwrt setup.
 
+## Done 
+- autopause, idle-timeout introduced on the rates settings in v0.0.2
+  
 ## ISSUES and TODO
 - no cleanup process yet, client accumulation could make esp32 to stop accepting new customers need to be in next release TODO
-- no autopause, ongoing idle-timeout introduced on the settings and still under development TODO
 - no admin panel yet we need our non technical user to configure this with friendly UI!!! TODO
 - xlink stopped working due to wrong ip? the IP esp32 and the ap should be made static TODO howto
