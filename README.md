@@ -139,6 +139,7 @@ Above is the 11kb file in portal folder for TPlink AP will be needed to modify i
 
 ## Done 
 - autopause, idle-timeout introduced on the rates settings in v0.0.2
+- Error messages in portal
   
 ## ISSUES and TODO
 - no cleanup process yet, client accumulation could make esp32 to stop accepting new customers need to be in next release TODO
