@@ -123,16 +123,16 @@ AUTH: Basic Auth\
 CREDENTIALS: admin | admin\
 PAYLOAD:
 ```json
-[{"p":1,"t":5},{"p":5,"t":30},{"p":10,"t":60},{"p":20,"t":120},{"p":50,"t":300}]
+[{"p":1,"t":5,"i":30},{"p":5,"t":30,"i":60},{"p":10,"t":60,"i":60},{"p":20,"t":120,"i":60},{"p":50,"t":300,"i":60}]
 ```
 CURL:
 ```
 curl -u admin:admin --header "Content-Type: application/json" \
   --request POST \
-  --data '[{"p":1,"t":5},{"p":5,"t":30},{"p":10,"t":60},{"p":20,"t":120},{"p":50,"t":300}]' \
+  --data '[{"p":1,"t":5,"i":30},{"p":5,"t":30,"i":60},{"p":10,"t":60,"i":60},{"p":20,"t":120,"i":60},{"p":50,"t":300,"i":60}]' \
   http://10.5.50.220/rates
 ```
-NOTE: p is price and t is time in minutes
+NOTE: p is price and t is time in minutes and i is the idle-timeout for auto pause
 
 ## Portal Customizations
 Above is the 11kb file in portal folder for TPlink AP will be needed to modify if using mikrotik or openwrt setup.
