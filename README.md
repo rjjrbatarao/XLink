@@ -145,3 +145,4 @@ Above is the 11kb file in portal folder for TPlink AP will be needed to modify i
 - no cleanup process yet, client accumulation could make esp32 to stop accepting new customers need to be in next release TODO
 - no admin panel yet we need our non technical user to configure this with friendly UI!!! TODO
 - xlink stopped working due to wrong ip? the IP esp32 and the ap should be made static TODO howto
+- xlink will require sdcard reader for database and data integrity
