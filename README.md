@@ -73,6 +73,10 @@ Follow this image replace the ip with what you obtained in step 5 and click save
 Notice the \32 this is the netmask to ensure only 1 device is in walled garden\
 ![image](https://github.com/user-attachments/assets/14814f20-5cfc-402f-95f9-5dcafbaba664)
 
+## Admin Dashboard
+In version V0.0.3 You can open admin dashboard using http://ip/admin its on /admin api path, username: admin ,password: admin
+![image](https://github.com/user-attachments/assets/cc7a8109-0111-4825-83fb-be589890ab49)
+
 
 ## Api Documentation
 Here we have our basic api list to change settings and pin mapping you must know how to use `POSTMAN` or `CURL` to use this method.\
